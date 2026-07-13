@@ -8,8 +8,6 @@ public class DisplayDetails {
 		System.out.println("Account Number : "+user.getAccNumber());
 		System.out.println("Balance : "+user.getBalance());
 		System.out.println("PIN : "+user.getPin());
-
-		
 	}
 
 }
