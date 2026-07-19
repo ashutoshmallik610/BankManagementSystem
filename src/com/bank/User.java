@@ -1,6 +1,5 @@
 package com.bank;
 import java.util.Scanner;
-//Updated on July 13
 
 public class User {
 
@@ -49,9 +48,9 @@ public class User {
 		int choice;
 		do
 		{
-			System.out.println("====================");
+			System.out.println("===================");
 			System.out.println(".....Welcome.....");
-			System.out.println("====================");
+			System.out.println("===================");
 			System.out.print("Choose Option");
 			System.out.println("1--Check Balance");
 			System.out.println("2--Deposit Balance");
@@ -91,9 +90,9 @@ public class User {
 					break;
 			}
 			
+			sc.close();
 		}
 		while(choice!=5);
 	}
-	
 	
 }
